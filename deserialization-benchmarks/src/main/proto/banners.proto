@@ -1,0 +1,21 @@
+package ru.hh.banners;
+
+option java_outer_classname = "BannersProtos";
+
+message Banners {
+  repeated Banner banners = 1;
+}
+
+message Banner {
+  required int32 id = 1;
+  required int32 place = 2;
+  required string type = 3;
+  optional int32 width = 4;
+  optional int32 height = 5;
+  optional string click = 6;
+  optional Vacancy vacancy = 7;
+}
+
+message Vacancy {
+  required int32 id = 1;
+}
