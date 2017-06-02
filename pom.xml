@@ -11,6 +11,7 @@
         <module>core-benchmarks</module>
         <module>deserialization-benchmarks</module>
         <module>write-benchmarks</module>
+        <module>rpc-benchmarks</module>
     </modules>
 
     <properties>
